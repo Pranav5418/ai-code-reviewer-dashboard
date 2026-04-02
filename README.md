@@ -23,13 +23,6 @@ A full-stack web application that analyzes Python code and provides real-time fe
 - 📜 History Tracking (Persistent using localStorage)
 - ⚡ Real-time Code Analysis
 
----
-
-## 📸 Screenshots
-
-(Add screenshots here)
-
----
 
 ## 🚀 How to Run
 
@@ -37,7 +30,7 @@ A full-stack web application that analyzes Python code and provides real-time fe
 
 cd backend
 pip install fastapi uvicorn
-uvicorn main:app --reload
+python -m uvicorn main:app --reload
 
 
 cd frontend
